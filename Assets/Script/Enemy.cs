@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Attack()
     {
         yield return new WaitForSeconds(attackInterval);
+        FindObjectOfType<AudioManager>().PlayAudio("VirusEaten"); 
         attackOrder = StartCoroutine(Attack());
         //bool TowerDie = detectedTurret.LoseHealth(damage);
         if(detectedTurret)

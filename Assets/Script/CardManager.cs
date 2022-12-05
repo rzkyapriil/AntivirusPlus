@@ -32,6 +32,7 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerDownHandler, IPo
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        FindObjectOfType<AudioManager>().PlayAudio("Spawn");
         gameManager.PlaceTurret();
         GameManager.instance.turretDrag = null;
         Destroy(turretDraggerInstance);

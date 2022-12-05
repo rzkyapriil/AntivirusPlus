@@ -10,8 +10,10 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayAudio("Music");
-        PlayAudio("Sound");
+        PlayAudio("MainmenuBGM");
+
+        //cari audio diluar AudioManager
+        //FindObjectOfType<AudioManager>().PlayAudio("Win");
     }
 
     private void Awake()

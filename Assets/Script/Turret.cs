@@ -20,6 +20,7 @@ public class Turret : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            FindObjectOfType<AudioManager>().PlayAudio("CellDie");
             turretContainer.isFull = false;
             return true;
         }
