@@ -94,9 +94,9 @@ MonoBehaviour:
   graphics: {fileID: 5384210342551314648}
   health: 10
   damage: 1
-  moveSpeed: 30
+  moveSpeed: 50
   rotateSpeed: 50
-  attackInterval: 1
+  attackInterval: 4
 --- !u!61 &3656376291396625498
 BoxCollider2D:
   m_ObjectHideFlags: 0

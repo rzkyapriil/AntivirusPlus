@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour
     Coroutine attackOrder;
     Turret detectedTurret;
 
+    Timer timer;
+    private object winPanel;
+
     void Update()
     {
         if(!detectedTurret)
@@ -58,7 +61,9 @@ public class Enemy : MonoBehaviour
     {
         health--;
         if (health <= 0)
+        {
             Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -72,6 +77,11 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.layer == 10)
         {
             Destroy(gameObject);
-        }
+        }        
+    }
+
+    public void showLosePanel()
+    {
+        timer.losePanel.SetActive(true);
     }
 }

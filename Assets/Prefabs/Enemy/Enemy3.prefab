@@ -96,7 +96,7 @@ MonoBehaviour:
   damage: 3
   moveSpeed: 10
   rotateSpeed: 50
-  attackInterval: 1
+  attackInterval: 10
 --- !u!61 &-5095624186841266601
 BoxCollider2D:
   m_ObjectHideFlags: 0

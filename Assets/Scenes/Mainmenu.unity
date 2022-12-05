@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 515110633}
   m_HandleRect: {fileID: 1477415098}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -2276,6 +2276,7 @@ GameObject:
   - component: {fileID: 526418335}
   - component: {fileID: 526418334}
   - component: {fileID: 526418336}
+  - component: {fileID: 526418337}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -2456,6 +2457,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &526418337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526418332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499fa7aeeafdac54885c8caee0323f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &583304439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,6 +5538,7 @@ GameObject:
   - component: {fileID: 1365657098}
   - component: {fileID: 1365657097}
   - component: {fileID: 1365657099}
+  - component: {fileID: 1365657100}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -5705,6 +5719,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1365657100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365657095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499fa7aeeafdac54885c8caee0323f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1377017189
 GameObject:
   m_ObjectHideFlags: 0
@@ -6180,6 +6206,7 @@ GameObject:
   - component: {fileID: 1506632154}
   - component: {fileID: 1506632153}
   - component: {fileID: 1506632155}
+  - component: {fileID: 1506632156}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -6384,6 +6411,18 @@ MonoBehaviour:
           m_StringArgument: GameplayBGM
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1506632156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506632151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499fa7aeeafdac54885c8caee0323f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1510376912
 GameObject:
   m_ObjectHideFlags: 0
@@ -6468,7 +6507,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1325496528}
   m_HandleRect: {fileID: 302255365}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -6651,6 +6690,7 @@ GameObject:
   - component: {fileID: 1540794548}
   - component: {fileID: 1540794547}
   - component: {fileID: 1540794546}
+  - component: {fileID: 1540794549}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -6772,6 +6812,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540794544}
   m_CullTransparentMesh: 1
+--- !u!114 &1540794549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540794544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499fa7aeeafdac54885c8caee0323f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1568765256
 GameObject:
   m_ObjectHideFlags: 0
@@ -6912,6 +6964,7 @@ GameObject:
   - component: {fileID: 1606134572}
   - component: {fileID: 1606134571}
   - component: {fileID: 1606134573}
+  - component: {fileID: 1606134574}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -7092,6 +7145,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1606134574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606134569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499fa7aeeafdac54885c8caee0323f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1608988554
 GameObject:
   m_ObjectHideFlags: 0
@@ -9678,7 +9743,7 @@ MonoBehaviour:
   - name: GameplayBGM
     clip: {fileID: 8300000, guid: 80d6fef5fbe442847abb87f23b831005, type: 3}
     audioMixerGroup: {fileID: 916371346809267661, guid: 8773867f9d66ce54b84c81a9181189f9, type: 2}
-    volume: 1
+    volume: 0.8
     loop: 1
     source: {fileID: 0}
   - name: MainmenuBGM
@@ -9694,9 +9759,27 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: VirusEaten
-    clip: {fileID: 8300000, guid: 3e8be1154aa9a884cab1dbb47049339f, type: 3}
+    clip: {fileID: 8300000, guid: 276204ca2c195794ebe4ef02ef638ec9, type: 3}
     audioMixerGroup: {fileID: -9023347815054495692, guid: 8773867f9d66ce54b84c81a9181189f9, type: 2}
-    volume: 1
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 70f555a2b48689941b1096d9ea82f496, type: 3}
+    audioMixerGroup: {fileID: -9023347815054495692, guid: 8773867f9d66ce54b84c81a9181189f9, type: 2}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: VirusEaten
+    clip: {fileID: 8300000, guid: 276204ca2c195794ebe4ef02ef638ec9, type: 3}
+    audioMixerGroup: {fileID: -9023347815054495692, guid: 8773867f9d66ce54b84c81a9181189f9, type: 2}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: MouseEnter
+    clip: {fileID: 8300000, guid: a7d09e0670eee4b4e8e89bc4cc441afd, type: 3}
+    audioMixerGroup: {fileID: -9023347815054495692, guid: 8773867f9d66ce54b84c81a9181189f9, type: 2}
+    volume: 0.3
     loop: 0
     source: {fileID: 0}
 --- !u!224 &7503326234529238453

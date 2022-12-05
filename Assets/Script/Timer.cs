@@ -16,9 +16,16 @@ public class Timer : MonoBehaviour
     public bool hasLimit;
     public float timerLimit;
 
+    [Header("Panel")]
+    public GameObject winPanel;
+    public GameObject losePanel;
+
+    public Enemy enemy;
+
     void Start()
     {
-        
+        //winPanel.SetActive(false);
+        //losePanel.SetActive(false);
     }
 
     void Update()
@@ -30,13 +37,31 @@ public class Timer : MonoBehaviour
             currentTime = timerLimit;
             settimertext();
             enabled = false;
+
+            //win Panel
+            showWinPanel();
         }
 
         settimertext();
     }
 
+    public void showWinPanel()
+    {
+        winPanel.SetActive(true);
+    }
+
+    public void showLosePanel()
+    {
+        losePanel.SetActive(true);
+    }
+
     private void settimertext()
     {
         timerText.text = currentTime.ToString("00.00");
+    }
+
+    public void AddTime(float value)
+    {
+        currentTime += value;
     }
 }

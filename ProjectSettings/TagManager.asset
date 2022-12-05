@@ -11,6 +11,10 @@ TagManager:
   - End
   - Container
   - Bullet
+  - Canvas
+  - CharacterList
+  - WinPanel
+  - LosePanel
   layers:
   - Default
   - TransparentFX
@@ -25,7 +29,7 @@ TagManager:
   - End
   - Bullet
   - Out
-  - 
+  - Lose
   - 
   - 
   - 

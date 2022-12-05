@@ -23,6 +23,7 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerDownHandler, IPo
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        FindObjectOfType<AudioManager>().PlayAudio("Click");
         turretDraggerInstance = Instantiate(turretDragger, canvas.transform);
         turretDraggerInstance.transform.position = Input.mousePosition;
         turretDraggerInstance.GetComponent<TurretDragging>().card = this;

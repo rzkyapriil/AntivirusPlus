@@ -33,9 +33,8 @@ public class SettingsManager : MonoBehaviour
 
         // Quality Start
         qualityDropdown.value = QualitySettings.GetQualityLevel();
-        
-        // Resolution Start
 
+        // Resolution Start
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
