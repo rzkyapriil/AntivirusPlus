@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Out
+  - Enemy
+  - Tower
+  - TurretDragger
+  - End
+  - Container
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -11,13 +18,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Drag
+  - Container
+  - Enemies
+  - Turret
+  - End
+  - Bullet
+  - Out
   - 
   - 
   - 
