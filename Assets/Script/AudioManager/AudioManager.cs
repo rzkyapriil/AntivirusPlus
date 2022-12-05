@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
+        //StopAudio("GameplayBGM");
         PlayAudio("MainmenuBGM");
 
         //cari audio diluar AudioManager

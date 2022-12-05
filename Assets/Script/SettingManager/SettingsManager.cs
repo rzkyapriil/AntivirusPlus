@@ -25,7 +25,6 @@ public class SettingsManager : MonoBehaviour
     float volumeSound = 1;
     float volumeMaster = 1;
 
-
     private void Start()
     {
         // Fullscreen Start

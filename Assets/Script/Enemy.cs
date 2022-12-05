@@ -66,7 +66,18 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    IEnumerator enemyDie()
+    {
+        yield return new WaitForSeconds(0.7f);
+        Destroy(gameObject);
+    }
+
+    public void LoseHealthCustom()
+    {
+        StartCoroutine(enemyDie());
+    }
+
+        private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == 9)
         {

@@ -15,8 +15,18 @@ public class Turret4 : Turret
     {
         if (collision.gameObject.layer == 8)
         {
-            collision.GetComponent<Enemy>().LoseHealth();
-            Destroy(gameObject);
+            animator.Play("BasofilExplode");
+            collision.GetComponent<Enemy>().LoseHealthCustom();
+            StartCoroutine(Boom());
+
         }
+    }
+
+    IEnumerator Boom()
+    {
+        
+        yield return new WaitForSeconds(0.7f);
+        
+        Destroy(gameObject);
     }
 }
